@@ -45,6 +45,7 @@ func mailComposeController(_ controller: MFMailComposeViewController, didFinishW
 
 ## Developer Programに登録なしのFree Apple IDで実機デバッグする手順
 1. Xcode on Mac
+
 (1) General on Project Profile - Identify - Bundle Identifier -> set "unique" App ID
 
 (2) General on Project Profile - Signing
@@ -58,6 +59,7 @@ select "Automatically manage signing" && add {your Apple ID}
 Failed to create provisioning profile. ...Change your bundle identifier to a unique string to try again.
 
 2. on iPhone
+
 設定 - 一般 - デバイス管理 
 tap デベロッパApp: {your Apple ID}
 tap "信頼する"
