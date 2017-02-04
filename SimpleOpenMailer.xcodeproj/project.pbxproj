@@ -7,38 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A67E27A61E450A030017F0E5 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E27A51E450A030017F0E5 /* UIPlaceHolderTextView.swift */; };
-		A67E27A81E4553020017F0E5 /* UIBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67E27A71E4553020017F0E5 /* UIBorderedButton.swift */; };
+		A69705621E459866006328D3 /* UIBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69705601E459866006328D3 /* UIBorderedButton.swift */; };
+		A69705631E459866006328D3 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69705611E459866006328D3 /* UIPlaceHolderTextView.swift */; };
 		A6DC00C51E433B100001DA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC00C41E433B100001DA89 /* AppDelegate.swift */; };
 		A6DC00C71E433B100001DA89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC00C61E433B100001DA89 /* ViewController.swift */; };
 		A6DC00CA1E433B100001DA89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DC00C81E433B100001DA89 /* Main.storyboard */; };
 		A6DC00CC1E433B100001DA89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6DC00CB1E433B100001DA89 /* Assets.xcassets */; };
 		A6DC00CF1E433B100001DA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6DC00CD1E433B100001DA89 /* LaunchScreen.storyboard */; };
-		A6DC00DA1E433B100001DA89 /* openMailerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC00D91E433B100001DA89 /* openMailerTests.swift */; };
-		A6DC00E51E433B100001DA89 /* openMailerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC00E41E433B100001DA89 /* openMailerUITests.swift */; };
 		A6DC00F41E4346060001DA89 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6DC00F31E4346060001DA89 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		A6DC00D61E433B100001DA89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6DC00B91E433B100001DA89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6DC00C01E433B100001DA89;
-			remoteInfo = openMailer;
-		};
-		A6DC00E11E433B100001DA89 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6DC00B91E433B100001DA89 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6DC00C01E433B100001DA89;
-			remoteInfo = openMailer;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A67E27A51E450A030017F0E5 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIPlaceHolderTextView.swift; path = OpenMailer/UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
-		A67E27A71E4553020017F0E5 /* UIBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderedButton.swift; sourceTree = "<group>"; };
+		A69705601E459866006328D3 /* UIBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderedButton.swift; sourceTree = "<group>"; };
+		A69705611E459866006328D3 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
 		A6DC00C11E433B100001DA89 /* openMailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openMailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6DC00C41E433B100001DA89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6DC00C61E433B100001DA89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,12 +27,6 @@
 		A6DC00CB1E433B100001DA89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6DC00CE1E433B100001DA89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6DC00D01E433B100001DA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6DC00D51E433B100001DA89 /* openMailerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openMailerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6DC00D91E433B100001DA89 /* openMailerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openMailerTests.swift; sourceTree = "<group>"; };
-		A6DC00DB1E433B100001DA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A6DC00E01E433B100001DA89 /* openMailerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openMailerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6DC00E41E433B100001DA89 /* openMailerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openMailerUITests.swift; sourceTree = "<group>"; };
-		A6DC00E61E433B100001DA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6DC00F31E4346060001DA89 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -64,39 +39,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6DC00D21E433B100001DA89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6DC00DD1E433B100001DA89 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A67E27A41E4508FE0017F0E5 /* UICustomized */ = {
+		A697055F1E459866006328D3 /* UICustomized */ = {
 			isa = PBXGroup;
 			children = (
-				A67E27A51E450A030017F0E5 /* UIPlaceHolderTextView.swift */,
-				A67E27A71E4553020017F0E5 /* UIBorderedButton.swift */,
+				A69705601E459866006328D3 /* UIBorderedButton.swift */,
+				A69705611E459866006328D3 /* UIPlaceHolderTextView.swift */,
 			);
-			name = UICustomized;
+			path = UICustomized;
 			sourceTree = "<group>";
 		};
 		A6DC00B81E433B100001DA89 = {
 			isa = PBXGroup;
 			children = (
-				A67E27A41E4508FE0017F0E5 /* UICustomized */,
+				A697055F1E459866006328D3 /* UICustomized */,
 				A6DC00C31E433B100001DA89 /* OpenMailer */,
-				A6DC00D81E433B100001DA89 /* openMailerTests */,
-				A6DC00E31E433B100001DA89 /* openMailerUITests */,
 				A6DC00C21E433B100001DA89 /* Products */,
 				A6DC00F21E4346060001DA89 /* Frameworks */,
 			);
@@ -106,8 +65,6 @@
 			isa = PBXGroup;
 			children = (
 				A6DC00C11E433B100001DA89 /* openMailer.app */,
-				A6DC00D51E433B100001DA89 /* openMailerTests.xctest */,
-				A6DC00E01E433B100001DA89 /* openMailerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,24 +81,6 @@
 			);
 			name = OpenMailer;
 			path = openMailer;
-			sourceTree = "<group>";
-		};
-		A6DC00D81E433B100001DA89 /* openMailerTests */ = {
-			isa = PBXGroup;
-			children = (
-				A6DC00D91E433B100001DA89 /* openMailerTests.swift */,
-				A6DC00DB1E433B100001DA89 /* Info.plist */,
-			);
-			path = openMailerTests;
-			sourceTree = "<group>";
-		};
-		A6DC00E31E433B100001DA89 /* openMailerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A6DC00E41E433B100001DA89 /* openMailerUITests.swift */,
-				A6DC00E61E433B100001DA89 /* Info.plist */,
-			);
-			path = openMailerUITests;
 			sourceTree = "<group>";
 		};
 		A6DC00F21E4346060001DA89 /* Frameworks */ = {
@@ -172,42 +111,6 @@
 			productReference = A6DC00C11E433B100001DA89 /* openMailer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A6DC00D41E433B100001DA89 /* openMailerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6DC00EC1E433B100001DA89 /* Build configuration list for PBXNativeTarget "openMailerTests" */;
-			buildPhases = (
-				A6DC00D11E433B100001DA89 /* Sources */,
-				A6DC00D21E433B100001DA89 /* Frameworks */,
-				A6DC00D31E433B100001DA89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6DC00D71E433B100001DA89 /* PBXTargetDependency */,
-			);
-			name = openMailerTests;
-			productName = openMailerTests;
-			productReference = A6DC00D51E433B100001DA89 /* openMailerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A6DC00DF1E433B100001DA89 /* openMailerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6DC00EF1E433B100001DA89 /* Build configuration list for PBXNativeTarget "openMailerUITests" */;
-			buildPhases = (
-				A6DC00DC1E433B100001DA89 /* Sources */,
-				A6DC00DD1E433B100001DA89 /* Frameworks */,
-				A6DC00DE1E433B100001DA89 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6DC00E21E433B100001DA89 /* PBXTargetDependency */,
-			);
-			name = openMailerUITests;
-			productName = openMailerUITests;
-			productReference = A6DC00E01E433B100001DA89 /* openMailerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,16 +125,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4UT6Z8KCG4;
 						ProvisioningStyle = Automatic;
-					};
-					A6DC00D41E433B100001DA89 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A6DC00C01E433B100001DA89;
-					};
-					A6DC00DF1E433B100001DA89 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A6DC00C01E433B100001DA89;
 					};
 				};
 			};
@@ -249,8 +142,6 @@
 			projectRoot = "";
 			targets = (
 				A6DC00C01E433B100001DA89 /* openMailer */,
-				A6DC00D41E433B100001DA89 /* openMailerTests */,
-				A6DC00DF1E433B100001DA89 /* openMailerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,20 +157,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6DC00D31E433B100001DA89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6DC00DE1E433B100001DA89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,43 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A69705621E459866006328D3 /* UIBorderedButton.swift in Sources */,
 				A6DC00C71E433B100001DA89 /* ViewController.swift in Sources */,
 				A6DC00C51E433B100001DA89 /* AppDelegate.swift in Sources */,
-				A67E27A61E450A030017F0E5 /* UIPlaceHolderTextView.swift in Sources */,
-				A67E27A81E4553020017F0E5 /* UIBorderedButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6DC00D11E433B100001DA89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6DC00DA1E433B100001DA89 /* openMailerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6DC00DC1E433B100001DA89 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6DC00E51E433B100001DA89 /* openMailerUITests.swift in Sources */,
+				A69705631E459866006328D3 /* UIPlaceHolderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A6DC00D71E433B100001DA89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6DC00C01E433B100001DA89 /* openMailer */;
-			targetProxy = A6DC00D61E433B100001DA89 /* PBXContainerItemProxy */;
-		};
-		A6DC00E21E433B100001DA89 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6DC00C01E433B100001DA89 /* openMailer */;
-			targetProxy = A6DC00E11E433B100001DA89 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A6DC00C81E433B100001DA89 /* Main.storyboard */ = {
@@ -466,60 +314,6 @@
 			};
 			name = Release;
 		};
-		A6DC00ED1E433B100001DA89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = openMailerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.home.nobinux.openMailerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOpenMailer.temp_caseinsensitive_rename.app/SimpleOpenMailer.temp_caseinsensitive_rename";
-			};
-			name = Debug;
-		};
-		A6DC00EE1E433B100001DA89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = openMailerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.home.nobinux.openMailerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOpenMailer.temp_caseinsensitive_rename.app/SimpleOpenMailer.temp_caseinsensitive_rename";
-			};
-			name = Release;
-		};
-		A6DC00F01E433B100001DA89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = openMailerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.home.nobinux.openMailerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = openMailer;
-			};
-			name = Debug;
-		};
-		A6DC00F11E433B100001DA89 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = openMailerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.home.nobinux.openMailerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = openMailer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,24 +331,6 @@
 			buildConfigurations = (
 				A6DC00EA1E433B100001DA89 /* Debug */,
 				A6DC00EB1E433B100001DA89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6DC00EC1E433B100001DA89 /* Build configuration list for PBXNativeTarget "openMailerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6DC00ED1E433B100001DA89 /* Debug */,
-				A6DC00EE1E433B100001DA89 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6DC00EF1E433B100001DA89 /* Build configuration list for PBXNativeTarget "openMailerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6DC00F01E433B100001DA89 /* Debug */,
-				A6DC00F11E433B100001DA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

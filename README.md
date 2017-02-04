@@ -35,8 +35,32 @@ func mailComposeController(_ controller: MFMailComposeViewController, didFinishW
 }
 ```
 
-## envirionment
+## Envirionment
 - iOS 10.2 up
+ * tested on iPhone 6
 - Xcode 8
 - Swift 3.0.
-- test on iPhone 6
+
+
+
+## Developer Programに登録なしのFree Apple IDで実機デバッグする手順
+1. Xcode on Mac
+(1) General on Project Profile - Identify - Bundle Identifier -> set "unique" App ID
+
+(2) General on Project Profile - Signing
+select "Automatically manage signing" && add {your Apple ID}
+ ※ Autoにしておけば「provisioning profileの設定」などの細かな設定は不要。
+
+(3) ビルド
+デバッグ先を「iPhone 6」等のシミュレータに替えてUSBで接続したデバイス名を選択し直した後、
+ビルド[command+B]すると、以下エラーが出る場合がありますが、その場合は上記(1)設定を変えると解消できます。
+
+Failed to create provisioning profile. ...Change your bundle identifier to a unique string to try again.
+
+2. on iPhone
+設定 - 一般 - デバイス管理 
+tap デベロッパApp: {your Apple ID}
+tap "信頼する"
+
+3. デバイスに転送されたアプリケーションをクリックして実行
+
