@@ -1,11 +1,12 @@
-# SimpleOpenMailer - sample/simple application to open e-mailer on iOS 10
+# SimpleOpenMailer - Open e-Mailer in swift 3.0 application
+
+![BackgroundImage](https://raw.githubusercontent.com/nobinuxlab/SimpleOpenMailer/master/Screenshot01.png)
 
 ## Codes summary
-Open Mailer in swift 3.0 application
+See ViewController.swift
 
 ### Step 1 - Link MessageUI Libraries
 Add MessageUI to Link Binary with Libraries at Xcode - Build Phases
-
 And write "import MessageUI"
 
 ### Step 2 - add main code
