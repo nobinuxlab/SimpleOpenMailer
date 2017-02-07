@@ -1,6 +1,6 @@
 # SimpleOpenMailer - Open e-Mailer in swift 3.0 application
 
-![BackgroundImage](https://github.com/nobinuxlab/SimpleOpenMailer/blob/master/ScreenShot_01.png)
+<kbd>![BackgroundImage](https://github.com/nobinuxlab/SimpleOpenMailer/blob/master/ScreenShot_01.png)</kbd>
 
 ## Codes summary
 See ViewController.swift
