@@ -60,9 +60,9 @@ Failed to create provisioning profile. ...Change your bundle identifier to a uni
 
 ### Step 2 - Set iPhone to trust device
 
-設定 - 一般 - デバイス管理 
-tap デベロッパApp: {your Apple ID}
-tap "信頼する"
+1. 設定 - 一般 - デバイス管理  
+ tap デベロッパApp: {your Apple ID}  
+2. tap "信頼する"
 
 ※ 信頼した直後で自動的に起動しない場合、デバイスに転送されたアプリケーションのアイコンをクリックして実行
 
