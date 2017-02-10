@@ -36,10 +36,16 @@ func mailComposeController(_ controller: MFMailComposeViewController, didFinishW
 ```
 
 ## Envirionment
-- iOS 10.2 up
- * tested on iPhone 6
-- Xcode 8
-- Swift 3.0.
+- tested on:
+ iPhone 6
+
+- developped:
+
+|item |ver. |
+|:---:|:---:|
+|OS   | iOS 10.2 | 
+| ide |Xcode 8  |  
+|language|Swift 3.0|
 
 
 
