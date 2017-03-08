@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A65F3D571E6F8BCB007CFE96 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A65F3D561E6F8BCB007CFE96 /* Settings.bundle */; };
 		A69705621E459866006328D3 /* UIBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69705601E459866006328D3 /* UIBorderedButton.swift */; };
 		A69705631E459866006328D3 /* UIPlaceHolderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69705611E459866006328D3 /* UIPlaceHolderTextView.swift */; };
 		A6DC00C51E433B100001DA89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC00C41E433B100001DA89 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A65F3D561E6F8BCB007CFE96 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		A69705601E459866006328D3 /* UIBorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBorderedButton.swift; sourceTree = "<group>"; };
 		A69705611E459866006328D3 /* UIPlaceHolderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPlaceHolderTextView.swift; sourceTree = "<group>"; };
 		A6DC00C11E433B100001DA89 /* openMailer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openMailer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 		A6DC00B81E433B100001DA89 = {
 			isa = PBXGroup;
 			children = (
+				A65F3D561E6F8BCB007CFE96 /* Settings.bundle */,
 				A697055F1E459866006328D3 /* UICustomized */,
 				A6DC00C31E433B100001DA89 /* OpenMailer */,
 				A6DC00C21E433B100001DA89 /* Products */,
@@ -101,6 +104,7 @@
 				A6DC00BD1E433B100001DA89 /* Sources */,
 				A6DC00BE1E433B100001DA89 /* Frameworks */,
 				A6DC00BF1E433B100001DA89 /* Resources */,
+				A65F3D581E6FA111007CFE96 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -151,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A65F3D571E6F8BCB007CFE96 /* Settings.bundle in Resources */,
 				A6DC00CF1E433B100001DA89 /* LaunchScreen.storyboard in Resources */,
 				A6DC00CC1E433B100001DA89 /* Assets.xcassets in Resources */,
 				A6DC00CA1E433B100001DA89 /* Main.storyboard in Resources */,
@@ -158,6 +163,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A65F3D581E6FA111007CFE96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:1:DefaultValue ${APP_VERSION}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\nBUILD_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:2:DefaultValue ${BUILD_NUMBER}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6DC00BD1E433B100001DA89 /* Sources */ = {
